@@ -56,6 +56,7 @@ public class Expressions {
      * @return true if either b1 or b1 are true. false if both are false.
      * look into boolean operations to do this without using if/else statements.
      */
+    
     public boolean returnOr(boolean b1, boolean b2){
         if(b1 == true || b2 == true){
             return true;
